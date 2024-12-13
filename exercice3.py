@@ -4,7 +4,7 @@ Day_of_the_week=str(input("enter the day of the week:")).lower()
 
 if Day_of_the_week in ["monday", "tuesday", "wednesday", "thursday", "friday"]:
     Price_after_discount=Total_amount-Total_amount*0.1
-if Day_of_the_week in ["saturday", "sunday"]:
+elif Day_of_the_week in ["saturday", "sunday"]:
     Price_after_discount=Total_amount-Total_amount*0.2
 if Number_of_items>5:
     Price_after_discount=Total_amount-Total_amount*0.05   
